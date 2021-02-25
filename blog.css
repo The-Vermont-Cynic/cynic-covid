@@ -1,11 +1,11 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
 a {
-  color: forestgreen;
+  color: #D72F11;
 }
 
 a:hover{
-  color: forestgreen;
+  color: #D72F11;
 }
 
 .blog-header {
@@ -57,6 +57,20 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: .75rem;
   padding-bottom: .75rem;
   font-size: .875rem;
+}
+
+.bg-covid{
+  background-image: url('assets/covid-bg.jpg');
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.bg-white-rounded{
+  background-color: #DCDCDC;opacity:0.9;
+  height: 250px;
+  display: inline-block;
+  border-radius: 15px;
+  padding-top: 5px
 }
 
 .card-img-right {
